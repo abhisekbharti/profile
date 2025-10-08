@@ -1,0 +1,10 @@
+.heading:hover{
+  color:yellow;
+  /* background:linear-gradient(
+    90deg,
+    #fff561,0%,
+    #0561ff,50%,
+    #561ccc,75%,
+    #620287,100%
+  ) */
+}
