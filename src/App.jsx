@@ -2,7 +2,7 @@
 import SearchBox from "./assets/Search"
 import Heading from "./assets/Heading"
 import Projects from "./assets/Projects"
-import Footer from "./assets/Footer"
+import Footer from "../src/assets/Footer"
 import './App.css'
 
 

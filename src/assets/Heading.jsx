@@ -1,9 +1,11 @@
 import './Heading.css'
+import profilePic from '../svg/profile.png';
+
 
 const Heading = () => {
     return(
         <header className="heading bg-cyan-900 text-orange-100 flex mt-10 place-content-around p-3 border-red-200 border-12 rounded-full shadow-inner shadow-zinc-100 ">
-            <img className="rounded-full w-auto h-28" src="./src/svg/profile.png" alt="profile" ></img>
+            <img className="rounded-full w-auto h-28" src={profilePic} alt="profile" ></img>
             <section className="block text-center">
                 <h1 className="">Abhisek Bharti</h1>
                 <h3 className="">Full stack Developer</h3>
